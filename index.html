@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form pendaftaran HTML</title>
+		<meta name="author" content="Friska May Wahyu">
+	</head>
+	<body>
+		<h1>FORM PENDAFTARAN</h1>
+        <form action="" method"post">
+            <table width="100%" valign="top">
+                <tr>
+                <td width="50%">
+		<fieldset>
+			<legend>Data Pribadi</legend>
+            <table>
+				<tr><td><label for="Nama">Nama Lengkap</label></td>
+				<td>:</td>
+				<td><input size="20" type="text" name="nama" id="nama" autofocus placeholder="Nama Lengkap" required></td></tr>
+
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>:</td>
+					<td><input type="email" name="email" id="email"></td>
+				</tr>
+
+                <tr>
+                    <td><label for="telfon">Nomor Telepon</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="telfon" id="telfon"></td>
+                </tr>
+
+                <tr>
+					<td><label for="alamat">Alamat</label></td>
+                    <td>:</td>
+					<td><textarea name="alamat" id="alamat" cols="30" rows="6"></textarea></td>
+				</tr>
+
+                <tr>
+					<td><label for="tgl_lahir">Tanggal Lahir</label></td>
+                    <td>:</td>
+					<td><input type="date" name="tgl_lahir" id="tgl_lahir"></td>
+				</tr>
+
+                <tr>
+					<td><label for="jk">Jenis Kelamin</label></td>
+                    <td>:</td>
+					<td><input type="radio" name="jk" id="jk" value="Laki-Laki">Laki Laki
+						<input type="radio" name="jk" id="jk" value="Perempuan">Perempuan</td>
+				</tr>
+
+                <tr>
+					<td><label for="agama">Agama</label></td>
+                    <td>:</td>
+					<td>
+						<select name="agama" id="agama">
+                            <option>Pilih Agama</option>
+							<option value="Islam">Islam</option>
+							<option value="kristen">Kristen</option>
+							<option value="khatolik">Khatolik</option>
+							<option value="konghucu">Konghucu</option>
+							<option value="hindu">Hindu</option>
+                            <option value="hindu">Budha</option>
+						</select>
+					</td>
+				</tr>
+
+
+                <tr>
+					<td><label for="pendidikan">Pendidikan Terakhir</label></td>
+                    <td>:</td>
+					<td><input type="radio" name="pendidikan" id="pendidikan" value="SMA">SMA
+						<input type="radio" name="pendidikan" id="pendidikan" value="D3">D3
+                        <input type="radio" name="pendidikan" id="pendidikan" value="S1">S1
+				</tr>
+
+                <tr>
+					<td><label for="foto">Foto</label></td>
+                    <td>:</td>
+					<td><input type="file" name="foto" id="foto" accept="image/*"></td></tr>
+				<tr>
+                    <tr>
+                        <td><label for="cv">CV</label></td>
+                        <td>:</td>
+                        <td><input type="file" name="cv" id="cv" accept="image/*"></td></tr>
+                    <tr>
+                </td>
+                </tr>
+                </table>
+
+                <td>
+                    <fieldset>
+                        <legend>Data Orang Tua</legend>
+                        <table>
+                            <tr><td><label for="namaayah">Nama Ayah</label></td>
+                                <td>:</td>
+                                <td><input size="20" type="text" name="namaayah" id="namaayah"></td></tr>
+
+                                <tr><td><label for="pekerjaanayah">Pekerjaan Ayah</label></td>
+                                    <td>:</td>
+                                    <td><input size="20" type="text" name="pekerjaanayah" id="pekerjaanayah"></td></tr>
+                                
+                                <tr>
+                                    <td><label for="alamatayah">Alamat Ayah</label></td>
+                                    <td>:</td>
+                                    <td><textarea name="alamatayah" id="alamatibu" cols="30" rows="5"></textarea></td>
+                                </tr>
+
+                                <tr>
+                                    <td><label for="telfonayah">Nomor Telepon Ayah</label></td>
+                                    <td>:</td>
+                                    <td><input type="number" name="telfonayah" id="telfonayah"></td>
+                                </tr>
+                                
+                                <tr><td><label for="namaibu">Nama Ibu</label></td>
+                                    <td>:</td>
+                                    <td><input size="20" type="text" name="namaibu" id="namaibu"></td></tr>
+    
+                                    <tr><td><label for="pekerjaanibu">Pekerjaan Ibu</label></td>
+                                        <td>:</td>
+                                        <td><input size="20" type="text" name="pekerjaanibu" id="pekerjaanibu"></td></tr>
+                                    
+                                    <tr>
+                                        <td><label for="alamatibu">Alamat Ayah</label></td>
+                                        <td>:</td>
+                                        <td><textarea name="alamatibu" id="alamatibu" cols="30" rows="5"></textarea></td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td><label for="telfonibu">Nomor Telepon Ibu</label></td>
+                                        <td>:</td>
+                                        <td><input type="number" name="telfonibu" id="telfonibu"></td>
+                                    </tr>
+
+                        </table>
+                    
+
+
+                </td>
+
+			</table>
+		</fieldset>
+	</body>
+</html>
